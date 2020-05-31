@@ -27,7 +27,7 @@ void MainScene::initScene()
 
     //±³¾°ÒôÀÖµÄ²¥·Å
     QMediaPlayer * player = new QMediaPlayer;
-    player->setMedia(QUrl("qrc:/music/diancipao.mp3"));
+    player->setMedia(QUrl("qrc:/music/backgroudmusic.mp3"));
     player->setVolume(30);
     player->play();
 }
