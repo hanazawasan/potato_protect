@@ -25,4 +25,12 @@ public:
     QRect m_Rect;
 };
 
+class Bullet1:public Bullet
+{
+public:
+    Bullet1();
+
+
+};
+
 #endif // BULLET_H

@@ -1,5 +1,6 @@
 #include "bullet.h"
 
+//第一类子弹的设置
 Bullet::Bullet()
 {
     m_Bullet.load(":/pics/bullet.png");
@@ -34,3 +35,11 @@ void Bullet::updatePosition()
         m_Free=true;
     }
 }
+
+//第二类子弹的设置
+Bullet1::Bullet1()
+{
+    m_Bullet.load(":/pics/bullet1.png");
+    m_Speed=BULLET1_SPEED;
+}
+

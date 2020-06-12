@@ -18,17 +18,23 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     bullet.cpp \
     enermy.cpp \
+    enermy1.cpp \
     main.cpp \
     mainscene.cpp \
     map.cpp \
+    mybutton.cpp \
+    mywindow.cpp \
     tower.cpp
 
 HEADERS += \
     bullet.h \
     config.h \
     enermy.h \
+    enermy1.h \
     mainscene.h \
     map.h \
+    mybutton.h \
+    mywindow.h \
     tower.h
 
 FORMS += \
